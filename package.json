@@ -6,7 +6,8 @@
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": ">=20.x.x"
+    "node": ">=24",
+    "npm": ">=11.14.0"
   },
   "scripts": {
     "clean": "rimraf dist src/_includes/css src/_includes/scripts",
@@ -29,7 +30,7 @@
     "url": "https://github.com/madrilene/eleventy-excellent.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
@@ -74,5 +75,6 @@
     "sharp-ico": "^0.1.5",
     "slugify": "^1.6.6",
     "svgo": "^4.0.0"
-  }
+  },
+  "packageManager": "npm@11.14.0"
 }
